@@ -9,7 +9,8 @@ $Defines = "-DSQLITE_THREADSAFE=1 " +
            "-DSQLITE_ENABLE_COLUMN_METADATA " +
            "-DSQLITE_ENABLE_MATH_FUNCTIONS " +
            "-DSQLITE_ENABLE_UPDATE_DELETE_LIMIT " +
-           "-DSQLITE_DEFAULT_FOREIGN_KEYS=1"
+           "-DSQLITE_DEFAULT_FOREIGN_KEYS=1 " +
+           "-DSQLITE_OMIT_SHARED_CACHE"
 
 $InitialLocation = Get-Location
 
